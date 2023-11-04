@@ -924,7 +924,7 @@ footer {
   color: #5570f1;
 }
 .about-two {
-  padding-left: 3.5rem;
+  padding-left: 6rem;
 }
 .about-two h3 {
   font-family: Inter;
@@ -961,7 +961,7 @@ footer {
   gap: 1rem;
 }
 .essa-width {
-  width: 25rem;
+  width: 23rem;
   background-color: #ffd19914;
   padding: 1rem;
 }
@@ -969,6 +969,7 @@ footer {
   font-family: Inter;
   font-size: 1rem;
   font-weight: 600;
+  padding-right: 7rem;
 }
 .essa-width p {
   font-family: Inter;
