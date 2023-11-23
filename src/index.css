@@ -183,7 +183,7 @@ footer {
 }
 .top-first h2 {
   font-family: Inter;
-  font-size: 64px;
+  font-size: 3.8rem;
   font-weight: 600;
   padding-left: 15rem;
   padding-right: 15rem;
@@ -194,7 +194,7 @@ footer {
 }
 .top-first p {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
   padding-left: 28rem;
   padding-right: 28rem;
