@@ -187,8 +187,8 @@ footer {
   font-weight: 600;
   padding-left: 15rem;
   padding-right: 15rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: #000000, #000000;
 }
 .top-first h2 span {
@@ -201,7 +201,7 @@ footer {
   padding-left: 28rem;
   padding-right: 28rem;
   color: #53545c;
-  padding-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .three {
   background-color: #5570f1;
