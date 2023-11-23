@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
           <div className="nav-bottom">
             <NavLink
-              to="features"
+              to="/"
               style={({ isActive }) => (isActive ? activeStyles : null)}
             >
               Features
