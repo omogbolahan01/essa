@@ -187,6 +187,8 @@ footer {
   font-weight: 600;
   padding-left: 15rem;
   padding-right: 15rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: #000000, #000000;
 }
 .top-first h2 span {
@@ -196,11 +198,10 @@ footer {
   font-family: Inter;
   font-size: 1.2rem;
   font-weight: 400;
-  padding-left: 29rem;
-  padding-right: 29rem;
+  padding-left: 28rem;
+  padding-right: 28rem;
   color: #53545c;
-  padding-bottom: 1.5rem;
-  padding-top: -2rem;
+  padding-bottom: 2.5rem;
 }
 .three {
   background-color: #5570f1;
