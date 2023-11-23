@@ -36,10 +36,10 @@ export default function Home() {
           <img src="/images/image 1.png" className="top-img1" />
           <img src="/images/image 3.png" className="top-img2" />
         </div>
-        <h2>
+        <h2 className="my-header">
           Take Your <span>E-Commerce </span>Business Online With Essa
         </h2>
-        <p>
+        <p className="my-paragraph">
           We provide the ultimate SaaS platform to help you manage, grow and
           optimize your online store
         </p>
