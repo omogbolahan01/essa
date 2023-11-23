@@ -18,9 +18,26 @@ export default function About() {
         </div>
       </div>
       <div className="about-next">
-        <div className="about-image2">
-          <img src="/images/Group 23.png" />
-        </div>
+        <h2>
+          Our Vision: <br /> Elevating Digital Ventures
+        </h2>
+        <div className="next-para">
+          <div></div>
+          <div>
+            {" "}
+            <p>
+              we envision a world where every business, regardless of size or
+              industry, can harness the power of online commerce to its fullest
+              potential. Our mission is to bridge the gap between ambition and
+              achievement. Through state-of-the-art technology, intuitive
+              platforms, and unwavering support, we are dedicated to
+              transforming dreams into digital reality.
+            </p>
+          </div>
+        </div>{" "}
+        {/* <div className="about-image2"> */}
+        {/* <img src="/images/Group 23.png" /> */}
+        {/* </div> */}
       </div>
       <div className="about-two">
         <h3>Media has their take</h3>

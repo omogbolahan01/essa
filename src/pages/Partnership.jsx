@@ -21,14 +21,64 @@ export default function Partnership() {
         <h3>Why Partner with Essa?</h3>
         <div className="why-img">
           <div className="why-first">
-            <img src="/images/Frame 6388.png" className="imageee" />
-            <img src="/images/Frame 6392.png" className="imageee" />
-            <img src="/images/Frame 6393.png" className="imageee" />
+            <div className="flex-1">
+              <img src="/images/Frame 6387.png" />
+              <h2>Cutting-Edge Technology</h2>
+              <p>
+                Access our state-of-the-art e-commerce platform equipped with
+                advanced features, ensuring your clients stay ahead in the
+                competitive digital landscape.
+              </p>
+            </div>
+            <div className="flex-1">
+              <img src="/images/Frame 6387 (1).png" />
+              <h2>Flexible Integration</h2>
+              <p>
+                Seamlessly integrate Essa with your existing services or
+                applications, providing a cohesive experience for your clients
+                without disruptions.
+              </p>
+            </div>
+            <div className="flex-1">
+              <img src="/images/Frame 6389.png" />
+              <h2>Revenue Opportunities</h2>
+              <p>
+                Unlock new revenue streams by offering Essa to your clients.
+                Benefit from competitive commission structures and referral
+                incentives tailored to your partnership level.
+              </p>
+            </div>
           </div>
           <div className="why-second">
-            <img src="/images/Frame 6394.png" className="imageee" />
-            <img src="/images/Frame 6395.png" className="imageee" />
-            <img src="/images/Frame 6396.png" className="imageee" />
+            <div className="flex-1">
+              <img src="/images/Frame 6390.png" />
+              <h2>Dedicated Support</h2>
+              <p>
+                Enjoy priority access to our dedicated partnership support team.
+                From technical assistance to marketing resources, we're here to
+                support your partnership journey.
+              </p>
+            </div>
+            <div className="flex-1">
+              <img src="/images/Frame 6391.png" />
+              <h2>Enhanced Credibility</h2>
+              <p>
+                Leverage Essa's reputation for reliability and innovation to
+                enhance your own credibility in the market. Associating with a
+                leading e-commerce solution provider strengthens your brand
+                image.
+              </p>
+            </div>
+            <div className="flex-1">
+              <img src="/images/Frame 6391 (1).png" />
+              <h2>Strategic Collaboration</h2>
+              <p>
+                Partnering with Essa opens the door to strategic collaborations
+                with other industry leaders within our network. Engage in joint
+                ventures, co-marketing opportunities, and collaborative
+                projects.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -41,8 +91,7 @@ export default function Partnership() {
           </p>
         </div>
         <div className="flex-partners">
-          <img src="/images/Frame 6312 (1).png" />
-          {/* <div className="one-flex">
+          <div className="one-flex">
             <img src="/images/image 5 (1).png" className="one-img" />
             <img src="/images/image 4 (1).png" className="one-img" />
             <img src="/images/image 8 (1).png" className="one-img" />
@@ -55,23 +104,44 @@ export default function Partnership() {
             <img src="/images/image 17.png" className="two-img" />
             <img src="/images/image 18.png" className="two-img" />
             <img src="/images/image 19.png" className="two-img" />
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="partners-last">
         <h3>Who Can Partner with Essa?</h3>
         <div className="last-partners">
-          <div className="parn-flex">
-            <img src="/images/Frame 6406.png" />
+          <div className="last-one">
+            <img src="/images/image 20.png" />
+            <h2>Development Agencies</h2>
+            <p>
+              Integrate Essa into your clients' websites, creating seamless and
+              visually appealing online stores.
+            </p>
           </div>
-          <div className="parn-flex">
-            <img src="/images/Frame 6407.png" />
+          <div className="last-one">
+            <img src="/images/image 20 (1).png" />
+            <h2>Digital Marketing Agencies</h2>
+            <p>
+              Offer Essa as a value-added service to enhance your clients'
+              online presence and drive sales through effective digital
+              strategies.
+            </p>
           </div>
-          <div className="parn-flex">
-            <img src="/images/Frame 6408.png" />
+          <div className="last-one">
+            <img src="/images/image 20 (2).png" />
+            <h2>Consultants</h2>
+            <p>
+              Provide expert advice to businesses looking for e-commerce
+              solutions, guiding them to leverage Essa's powerful features.
+            </p>
           </div>
-          <div className="parn-flex">
-            <img src="/images/Frame 6409.png" />
+          <div className="last-one">
+            <img src="/images/image 20 (3).png" />
+            <h2>Technology Partners</h2>
+            <p>
+              Integrate Essa with your technology stack, offering comprehensive
+              solutions to clients in various industries.
+            </p>
           </div>
         </div>
       </div>

@@ -2,9 +2,25 @@ import React from "react-dom";
 export default function Contact() {
   return (
     <div className="contact-area">
-      <div>
+      <div className="first-contact">
         <div className="contact-first">
-          <img src="/images/Frame 6434.png" className="" />
+          <h2>
+            How can <span className="cfispan">ESSA</span> customer support help
+            you today
+          </h2>
+          <p>
+            {" "}
+            We value your inquiries and feedback. If you have any questions,
+            concerns, or if there's anything specific you'd like to know about
+            Essa's services, please don't hesitate to get in touch. Our
+            dedicated support team is here to assist you.
+          </p>
+          <div>
+            <img src="/images/Frame 6429.png" />
+          </div>
+        </div>
+        <div className="frame-image">
+          <img src="/images/Group 26 (1).png" />
         </div>
       </div>
       <div className="empty2"></div>

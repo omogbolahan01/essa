@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Swiper from "../../swiper";
+import Slider from "../../slides";
 export default function Home() {
   const headers = [
     "What is Essa?",
@@ -53,13 +54,29 @@ export default function Home() {
       <div className="partner">
         <h3>The platform fuelling today’s high-growth revenue teams</h3>
         <div className="partner-flex">
-          <img src="/images/Frame 6312.png" />
-          {/* <img src="/images/image 5.png" />
-          <img src="/images/image 4.png" />
-          <img src="/images/image 8.png" />
-          <img src="/images/image 9.png" />
-          <img src="/images/image 6.png" />
-          <img src="/images/image 7.png" /> */}
+          <div className="imagee">
+            <img src="/images/image 5.png" />
+          </div>
+          <div className="imagee">
+            {" "}
+            <img src="/images/image 4.png" />{" "}
+          </div>
+          <div className="imagee">
+            {" "}
+            <img src="/images/image 8.png" />
+          </div>
+          <div className="imagee">
+            {" "}
+            <img src="/images/image 9.png" />
+          </div>
+          <div className="imagee">
+            {" "}
+            <img src="/images/image 6.png" />{" "}
+          </div>
+          <div className="imagee">
+            {" "}
+            <img src="/images/image 7.png" />
+          </div>
         </div>
       </div>
       <div className="robust-area">
@@ -132,21 +149,69 @@ export default function Home() {
       </div>
       <div className="imagess">
         <div className="image-1">
-          <img src="/images/Frame 6331.png" className="image1" />
-          <img src="/images/Frame 6332.png" className="image2" />
+          <div className="imageeee">
+            <img src="/images/Frame 6334 (10).png" />
+            <h3>Inventory Management: Optimize Your Stock Levels</h3>
+            <p>
+              Effortlessly manage your inventory with our intuitive tools. Stay
+              informed about stock levels, receive real-time alerts, and
+              optimize your supply chain for maximum efficiency.
+            </p>
+            <img src="/images/Frame 6434 (3).png" />
+          </div>
+          <div className="imageeee">
+            <img src="/images/Frame 6334 (3).png" />
+            <h3>CRM: Building Lasting Customer Relationships</h3>
+            <p>
+              Cultivate meaningful connections with your customers using our
+              robust Customer Relationship Management (CRM) tools. Understand
+              your audience, personalize interactions, and foster brand loyalty
+              effortlessly.
+            </p>
+            <img src="/images/Frame 6435.png" />
+          </div>
         </div>
         <div className="image-2">
-          <img src="/images/Frame 6333.png" className="image3" />
-          <img src="/images/Frame 6334.png" className="image4" />
+          <div className="imageeee">
+            <img src="/images/Frame 6334 (9).png" />
+            <h3>Order Management: Streamline Your Operations</h3>
+            <p>
+              Simplify your order processing and fulfillment. Our advanced Order
+              Management system ensures every order is tracked, processed, and
+              delivered efficiently, allowing you to focus on growing your
+              business.
+            </p>
+            <img src="/images/Frame 6437 (2).png" />
+          </div>
+          <div className="imageeee">
+            <img src="/images/Frame 6334 (9).png" />
+            <h3>Chat Conversations: Seamless Communication</h3>
+            <p>
+              Enhance customer support and engagement with our integrated chat
+              conversation feature. Communicate with customers in real-time,
+              address inquiries promptly, and provide exceptional service.
+            </p>
+            <img src="/images/Frame 6437 (2).png" />
+          </div>
         </div>
       </div>
       <div className="security-area">
         <div className="security-side">
-          <img src="/images/Frame 6354.png" />
+          <div>
+            <h3 className="my-header">Security and Data Privacy</h3>
+            <p className="my-paragraph">
+              safeguarding your business data and ensuring the privacy of your
+              customers is our top priority. We understand the critical
+              importance of security in e-commerce operations. Here's how we
+              prioritize your security and data privacy:
+            </p>
+          </div>
+          <div>
+            <img src="/images/security.png" />
+          </div>
         </div>
         <div className="security-details">
-          <img src="/images/Frame 6355.png" />
-          {/* <div className="security-flex">
+          <div className="security-flex">
             <div className="security1">
               <div className="security-block">
                 <h3>State-of-the-Art Encryption</h3>
@@ -212,8 +277,8 @@ export default function Home() {
                   operations secure.
                 </p>
               </div>
-            </div> */}
-          {/* </div> */}
+            </div>
+          </div>
         </div>
       </div>
       <div className="build-areas">
@@ -285,9 +350,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="client-area">
-        <div className="client-text">
-          <h3>Client Success Stories</h3>
+      <div className="clients-area">
+        <div className="clients-text">
+          <h4>Client Success Stories</h4>
           <p>
             Discover how businesses similar to yours soared to new heights of
             success with [Your Company Name], showcasing the unparalleled

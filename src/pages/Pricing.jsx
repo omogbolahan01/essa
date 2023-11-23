@@ -237,7 +237,7 @@ export default function Pricing() {
           </p>
         </div>
         <div className="flex-partners">
-          {/* <div className="one-flex">
+          <div className="one-flex">
             <img src="/images/image 5 (1).png" className="one-img" />
             <img src="/images/image 4 (1).png" className="one-img" />
             <img src="/images/image 8 (1).png" className="one-img" />
@@ -250,8 +250,7 @@ export default function Pricing() {
             <img src="/images/image 17.png" className="two-img" />
             <img src="/images/image 18.png" className="two-img" />
             <img src="/images/image 19.png" className="two-img" />
-          </div> */}
-          <img src="/images/Frame 6312 (1).png" />
+          </div>
         </div>
       </div>
 
