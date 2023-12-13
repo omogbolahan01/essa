@@ -69,116 +69,64 @@ export default function Pricing() {
         <div className="save">
           <p className="save">Save up to 25% with an Annual Plan</p>
         </div>
-      </div>
-      <div className="price-list">
-        <div className="list-price">
-          <h3>Personal</h3>
-          <h4>
-            $5 <span>p/month</span>{" "}
-          </h4>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>1 integration</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>Analytics</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>Insight</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>Insight</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (8).png" />
-            </div>
-            <p>Shared features </p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (8).png" />
-            </div>
-            <p>No custom setting</p>
-          </div>
-          <div className="button-get">
-            {" "}
-            <button className="button-get">Get Started</button>
-          </div>
-        </div>
-        <div className="list-price">
-          <h3>Professional</h3>
-          <h4>
-            $10 <span>p/month</span>{" "}
-          </h4>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>1 integration</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>Analytics</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>Insight</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>Insight</p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (7).png" />
-            </div>
-            <p>Shared features </p>
-          </div>
-          <div className="list-flex">
-            {" "}
-            <div>
-              <img src="/images/Vector (8).png" />
-            </div>
-            <p>No custom setting</p>
-          </div>
-          <div className="button-get2">
-            <button className="button-get2">Get Started</button>
-          </div>
-        </div>
-        <div className="try">
+
+        <div className="price-list">
           <div className="list-price">
-            <h3>Business</h3>
+            <h3>Personal</h3>
             <h4>
-              $15 <span>p/month</span>{" "}
+              $5 <span>p/month</span>{" "}
+            </h4>
+            <div className="list-flex">
+              {" "}
+              <div>
+                <img src="/images/Vector (7).png" />
+              </div>
+              <p>1 integration</p>
+            </div>
+            <div className="list-flex">
+              {" "}
+              <div>
+                <img src="/images/Vector (7).png" />
+              </div>
+              <p>Analytics</p>
+            </div>
+            <div className="list-flex">
+              {" "}
+              <div>
+                <img src="/images/Vector (7).png" />
+              </div>
+              <p>Insight</p>
+            </div>
+            <div className="list-flex">
+              {" "}
+              <div>
+                <img src="/images/Vector (7).png" />
+              </div>
+              <p>Insight</p>
+            </div>
+            <div className="list-flex">
+              {" "}
+              <div>
+                <img src="/images/Vector (8).png" />
+              </div>
+              <p>Shared features </p>
+            </div>
+            <div className="list-flex">
+              {" "}
+              <div>
+                <img src="/images/Vector (8).png" />
+              </div>
+              <p>No custom setting</p>
+            </div>
+            <div className="button-get">
+              {" "}
+              <button className="button-get">Get Started</button>
+            </div>
+          </div>
+          <div className="list-price">
+            <h3>Professional</h3>
+            <h4>
+              $10 <span>p/month</span>{" "}
             </h4>
             <div className="list-flex">
               {" "}
@@ -218,12 +166,65 @@ export default function Pricing() {
             <div className="list-flex">
               {" "}
               <div>
-                <img src="/images/Vector (7).png" />
+                <img src="/images/Vector (8).png" />
               </div>
               <p>No custom setting</p>
             </div>
-            <div className="button-get">
-              <button className="button-get">Get Started</button>
+            <div className="button-get2">
+              <button className="button-get2">Get Started</button>
+            </div>
+          </div>
+          <div className="try">
+            <div className="list-price">
+              <h3>Business</h3>
+              <h4>
+                $15 <span>p/month</span>{" "}
+              </h4>
+              <div className="list-flex">
+                {" "}
+                <div>
+                  <img src="/images/Vector (7).png" />
+                </div>
+                <p>1 integration</p>
+              </div>
+              <div className="list-flex">
+                {" "}
+                <div>
+                  <img src="/images/Vector (7).png" />
+                </div>
+                <p>Analytics</p>
+              </div>
+              <div className="list-flex">
+                {" "}
+                <div>
+                  <img src="/images/Vector (7).png" />
+                </div>
+                <p>Insight</p>
+              </div>
+              <div className="list-flex">
+                {" "}
+                <div>
+                  <img src="/images/Vector (7).png" />
+                </div>
+                <p>Insight</p>
+              </div>
+              <div className="list-flex">
+                {" "}
+                <div>
+                  <img src="/images/Vector (7).png" />
+                </div>
+                <p>Shared features </p>
+              </div>
+              <div className="list-flex">
+                {" "}
+                <div>
+                  <img src="/images/Vector (7).png" />
+                </div>
+                <p>No custom setting</p>
+              </div>
+              <div className="button-get">
+                <button className="button-get">Get Started</button>
+              </div>
             </div>
           </div>
         </div>
@@ -238,18 +239,38 @@ export default function Pricing() {
         </div>
         <div className="flex-partners">
           <div className="one-flex">
-            <img src="/images/image 5 (1).png" className="one-img" />
-            <img src="/images/image 4 (1).png" className="one-img" />
-            <img src="/images/image 8 (1).png" className="one-img" />
-            <img src="/images/image 9 (2).png" className="one-img" />
-            <img src="/images/image 6 (1).png" className="one-img" />
+            <div className="one-img">
+              <img src="/images/image 5 (1).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 4 (1).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 8 (1).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 9 (2).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 6 (1).png" className="one-img" />
+            </div>
           </div>
           <div className="two-flex">
-            <img src="/images/image 7 (1).png" className="two-img" />
-            <img src="/images/image 16.png" className="two-img" />
-            <img src="/images/image 17.png" className="two-img" />
-            <img src="/images/image 18.png" className="two-img" />
-            <img src="/images/image 19.png" className="two-img" />
+            <div className="two-img">
+              <img src="/images/image 7 (1).png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 16.png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 17.png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 18.png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 19.png" />
+            </div>
           </div>
         </div>
       </div>

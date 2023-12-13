@@ -45,6 +45,7 @@ header {
 header a {
   text-decoration: none;
   color: #4d4d4d;
+  font-size: 1rem;
   font-weight: 600;
   padding: 3px 15px;
 }
@@ -593,6 +594,7 @@ footer {
   font-size: 3rem;
   font-weight: 600;
   color: #000000;
+  margin-bottom: 1rem;
 }
 .clients-area p {
   font-family: Inter;
@@ -1179,4 +1181,349 @@ footer {
   font-size: 0.8rem;
   color: #53545c;
   padding-right: 3rem;
+}
+@media screen and (max-width: 1200px) {
+  .top-first h2 {
+    font-size: 3rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .top-first p {
+    font-size: 1.2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .home-image {
+    width: 65%;
+  }
+  .partner-flex {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .robuss p {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .online-store h2 {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    color: #000000;
+  }
+  .online-store p {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .imagess {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .imageeee {
+    width: 50%;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .imageeee h3 {
+    padding-right: 2rem;
+  }
+  .imageeee p {
+    font-size: 0.7rem;
+  }
+  .security-side {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 10rem;
+  }
+  .security-side h3 {
+    font-size: 3rem;
+  }
+  .security-side p {
+    font-size: 0.8rem;
+  }
+
+  .security-block {
+    width: 40rem;
+  }
+  .security-block h2 {
+    font-size: 1rem;
+  }
+  .security-block p {
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+  .security-details {
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+  .security-details img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .build-diagram {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .build-area {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .faq-1 h3 {
+    padding-right: 4rem;
+  }
+  .faq-1 p {
+    font-size: 0.75rem;
+    padding-right: 2rem;
+  }
+  .faq-area {
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .clients-area h4 {
+    font-size: 3rem;
+  }
+  .clients-area p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .footer-firs {
+    padding: 3rem 2rem;
+  }
+  .firss {
+    padding: 2rem 2rem;
+  }
+  .try-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+  }
+  .footer-first {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 5rem;
+  }
+  .site-logo {
+    margin-left: 2rem;
+  }
+  header a {
+    font-size: 0.6rem;
+  }
+  .nav-bottom {
+    font-size: 0.8rem;
+  }
+  .price-first {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .list-price {
+    width: 15rem;
+  }
+  .list-price h3 {
+    font-size: 0.6rem;
+  }
+  .list-price h4 {
+    font-size: 2rem;
+  }
+  .list-price span {
+    font-size: 0.75rem;
+  }
+  .button-get {
+    width: 10rem;
+  }
+
+  .button-get2 {
+    width: 10rem;
+  }
+  .price-top {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .high-partners h3 {
+    font-size: 1.4rem;
+  }
+  .high-partners p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 2.5rem;
+  }
+  .one-img {
+    width: 7rem;
+  }
+  .one-img img {
+    width: 100%;
+  }
+  .one-flex {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .one-flex img {
+    width: 100%;
+  }
+  .two-img {
+    width: 9rem;
+  }
+  .two-img img {
+    width: 100%;
+  }
+  .two-flex {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .faq-11 h3 {
+    padding-right: 2rem;
+  }
+  .faq-11 p {
+    padding-right: 2rem;
+  }
+  .faq-area11 {
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .faq-area31 {
+    display: block;
+  }
+
+  .about-text {
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+  }
+  .about-text h3 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .about-text p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .about-two {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .about-two h3 {
+    font-size: 1.3rem;
+  }
+
+  .about-next h2 {
+    margin-left: 4rem;
+  }
+
+  .next-para p {
+    padding-right: 5rem;
+  }
+  .essa-width {
+    width: 20rem;
+    background-color: #ffd19914;
+    padding: 1rem;
+  }
+  .essa-width h3 {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 3rem;
+  }
+  .essa-width p {
+    padding-bottom: 2rem;
+  }
+  .first-contact {
+    gap: 3rem;
+  }
+  .contact-first {
+    margin-left: 2rem;
+  }
+  .contact-first h2 {
+    font-size: 3rem;
+  }
+  .contact-first p {
+    padding-right: 1.5rem;
+  }
+  .contact-flex {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .contact-support {
+    width: 18rem;
+  }
+  .contact-support p {
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #000000;
+  }
+  .class1 {
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #5570f1;
+  }
+  .class2 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .class3 {
+    font-size: 0.8rem;
+  }
+  .contact-support h4 {
+    font-size: 0.7rem;
+  }
+  .contact-support h5 {
+    font-size: 0.65rem;
+  }
+
+  .text-contact {
+    font-size: 1.4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .api-top h3 {
+    font-size: 3.4rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+  .api-top {
+    padding-right: 14rem;
+  }
+  .partners-top {
+    gap: 2rem;
+  }
+  .partners {
+    padding-left: 2rem;
+  }
+  .partners h3 {
+    font-size: 2.3rem;
+    padding-right: 2rem;
+  }
+  .partners p {
+    font-size: 0.75rem;
+    padding-right: 3.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .why-partners {
+  }
+  .why-partners h3 {
+    font-size: 1.5rem;
+  }
+  .why-img {
+    margin-left: 2rem;
+  }
+
+  .flex-1 {
+    width: 22rem;
+  }
+
+  .last-partners {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }

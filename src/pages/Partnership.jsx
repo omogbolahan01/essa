@@ -92,18 +92,38 @@ export default function Partnership() {
         </div>
         <div className="flex-partners">
           <div className="one-flex">
-            <img src="/images/image 5 (1).png" className="one-img" />
-            <img src="/images/image 4 (1).png" className="one-img" />
-            <img src="/images/image 8 (1).png" className="one-img" />
-            <img src="/images/image 9 (2).png" className="one-img" />
-            <img src="/images/image 6 (1).png" className="one-img" />
+            <div className="one-img">
+              <img src="/images/image 5 (1).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 4 (1).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 8 (1).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 9 (2).png" className="one-img" />
+            </div>
+            <div className="one-img">
+              <img src="/images/image 6 (1).png" className="one-img" />
+            </div>
           </div>
           <div className="two-flex">
-            <img src="/images/image 7 (1).png" className="two-img" />
-            <img src="/images/image 16.png" className="two-img" />
-            <img src="/images/image 17.png" className="two-img" />
-            <img src="/images/image 18.png" className="two-img" />
-            <img src="/images/image 19.png" className="two-img" />
+            <div className="two-img">
+              <img src="/images/image 7 (1).png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 16.png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 17.png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 18.png" />
+            </div>
+            <div className="two-img">
+              <img src="/images/image 19.png" />
+            </div>
           </div>
         </div>
       </div>

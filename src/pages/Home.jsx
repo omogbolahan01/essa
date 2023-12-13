@@ -352,8 +352,8 @@ export default function Home() {
       </div>
       <div className="clients-area">
         <div className="clients-text">
-          <h4>Client Success Stories</h4>
-          <p>
+          <h4 className="my-header">Client Success Stories</h4>
+          <p className="my-paragraph">
             Discover how businesses similar to yours soared to new heights of
             success with [Your Company Name], showcasing the unparalleled
             potential of our innovative solutions and unwavering support.
