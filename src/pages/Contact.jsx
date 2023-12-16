@@ -15,7 +15,7 @@ export default function Contact() {
             Essa's services, please don't hesitate to get in touch. Our
             dedicated support team is here to assist you.
           </p>
-          <div>
+          <div className="image--1">
             <img src="/images/Frame 6429.png" />
           </div>
         </div>

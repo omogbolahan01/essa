@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="footer-first">
           <div className="footer-left">
             <div>
-              <img src="/images/Frame 6326 (2).png" className="footer-logo" />
+              <img src="/images/Frame 6326 (2).png" />
             </div>
             <div className="socials">
               <Link>

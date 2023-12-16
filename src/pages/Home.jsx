@@ -24,17 +24,21 @@ export default function Home() {
 
   const toggleParagraph = (index) => {
     if (activeParagraph === index) {
-      setActiveParagraph(null); // Close the currently open paragraph
+      setActiveParagraph(null);
     } else {
-      setActiveParagraph(index); // Open the clicked paragraph
+      setActiveParagraph(index);
     }
   };
   return (
     <div className="home-page">
       <div className="top-first">
         <div className="top-image">
-          <img src="/images/image 1.png" className="top-img1" />
-          <img src="/images/image 3.png" className="top-img2" />
+          <div className="top-img1">
+            <img src="/images/image 1.png" className="top-img1" />
+          </div>
+          <div className="top-img2">
+            <img src="/images/image 3.png" className="top-img2" />
+          </div>
         </div>
         <h2 className="my-header">
           Take Your <span>E-Commerce </span>Business Online With Essa
@@ -206,7 +210,7 @@ export default function Home() {
               prioritize your security and data privacy:
             </p>
           </div>
-          <div>
+          <div className="security-oo">
             <img src="/images/security.png" />
           </div>
         </div>
