@@ -1582,11 +1582,17 @@ footer {
     left: 0;
     right: 0;
     z-index: 1;
-    height: 75%;
+    height: 100%;
     color: #000000;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .api-nav {
     margin-left: 0rem;
+    align-items: center;
+    text-align: center;
   }
 }
 @media screen and (max-width: 600px) {
